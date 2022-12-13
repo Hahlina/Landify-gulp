@@ -1,0 +1,16 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// підключення компонентів до сторінки
+@import "./components/header";
+@import "./components/section_general";
+@import "./components/section_tailor_made_features";
+@import "./components/section_real_stories";
+@import "./components/section_our_18_years";
+@import "./components/section_easy_integrations";
+@import "./components/section_manage_all";
+@import "./components/footer";
+@import "./components/media";

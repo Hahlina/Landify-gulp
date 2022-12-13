@@ -1,0 +1,60 @@
+.section_manage_all {
+    background: #1db5be;
+    padding-left: clamp(1.25rem, -0.775rem + 8.64vw, 7rem);
+    padding-right: clamp(1.25rem, -0.775rem + 8.64vw, 7rem);
+}
+
+.manage_all_text_block {
+    margin-right: 32px;
+}
+
+.manage_all_text_block h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: clamp(1.875rem, 1.479rem + 1.69vw, 3rem);
+    letter-spacing: -0.025em;
+    color: #111827;
+    padding-top: clamp(3rem, 1.614rem + 5.92vw, 6.938rem);
+}
+
+.manage_all_text_block>p {
+    margin: 0;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: clamp(1rem, 0.881rem + 0.51vw, 1.125rem);
+    letter-spacing: -0.025em;
+    color: #111827;
+    line-height: 24px;
+}
+
+.btn_apk_block {
+    margin-top: 48px;
+    margin-bottom: 32px;
+}
+
+.btn_apk {
+    display: flex;
+}
+
+.section_manage_all>.btn_apk>p {
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #111827;
+}
+
+.mobile_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.mobile_item_1 {
+    align-self: flex-start;
+}
+
+.mobile_item_2 {
+    align-self: flex-end;
+}

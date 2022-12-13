@@ -1,0 +1,136 @@
+
+
+@media screen and (min-width: 550px) {
+  .header_btn_apk {
+    display: flex;
+  }
+
+  .section_general {
+    align-items: flex-start;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header_list_wrap>ul {
+    display: flex;
+  }
+
+  .burger_icon {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .tailot_text_block p {
+    width: 800px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .left_block {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+  }
+
+  .right_block {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .right_block>.block_company {
+    width: 488px;
+    margin-top: 196px;
+  }
+
+  .right_block>.block_company:nth-child(2) {
+    margin-top: 32px;
+    width: 384px;
+    height: 256px;
+  }
+
+  .section_real_stories {
+    height: 892px;
+  }
+
+  .block_company {
+    width: 384px;
+    margin-right: 16px;
+  }
+
+  .text_real_stories {
+    width: 488px;
+  }
+
+  .text_real_stories h2 {
+    margin-top: 0;
+  }
+
+  .text_real_stories img:nth-child(1) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .text_real_stories img:nth-child(2) {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .section_our_18_years {
+    flex-wrap: nowrap;
+    height: 338px;
+  }
+
+  .block_item_row {
+    flex-wrap: nowrap;
+  }
+
+  .section_our_18_years_text_block>p {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .section_easy_integrations {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .section_easy_integrations_text_block {
+    width: clamp(20.5rem, 9.071rem + 23.81vw, 30.5rem);
+  }
+
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 580px) {
+  .mobile_block {
+    height: 558px;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .section_manage_all {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mobile_block {
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+  }
+
+  .manage_all_text_block {
+    width: 592px;
+  }
+}

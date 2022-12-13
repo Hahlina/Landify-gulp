@@ -1,0 +1,110 @@
+.section_real_stories {
+    margin-top: 96px;
+    background: #d5fafc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 48px;
+    padding-left: clamp(1.25rem, -0.775rem + 8.64vw, 7rem);
+    padding-right: clamp(1.25rem, -0.775rem + 8.64vw, 7rem);
+}
+
+.text_real_stories>img:nth-child(2) {
+    width: clamp(5.938rem, 4.925rem + 4.32vw, 8.813rem);
+    height: clamp(4.875rem, 4.039rem + 3.57vw, 7.25rem);
+    position: absolute;
+    left: -100px;
+    top: -60px;
+    z-index: -1;
+}
+
+.text_real_stories>img {
+    width: clamp(5.938rem, 4.925rem + 4.32vw, 8.813rem);
+    height: clamp(4.875rem, 4.039rem + 3.57vw, 7.25rem);
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    z-index: -1;
+}
+
+.text_real_stories {
+    position: relative;
+    z-index: 5;
+    margin: 0 20px;
+    margin-top: clamp(5rem, 2.615rem + 10.18vw, 7.5rem);
+}
+
+.text_real_stories h2 {
+    font-weight: 700;
+    font-size: clamp(1.875rem, 1.479rem + 1.69vw, 3rem);
+    letter-spacing: -0.025em;
+    color: #111827;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.text_real_stories p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    color: #111827;
+    margin-bottom: clamp(2rem, 1.296rem + 3vw, 4rem);
+}
+
+.block_company {
+    background: #ffffff;
+    box-shadow: 0px 4px 8px -2px rgba(17, 24, 39, 0.1),
+        0px 2px 4px -2px rgba(17, 24, 39, 0.06);
+    border-radius: 8px;
+    margin: 0 16px;
+    margin-top: 20px;
+}
+
+.block_company>img {
+    padding-top: 32px;
+    padding-left: 32px;
+    width: 112px;
+    height: 32px;
+}
+
+.block_company_text>p>img {
+    position: absolute;
+    left: -32px;
+}
+
+.block_company_text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #111827;
+    position: relative;
+    margin: 32px;
+    margin-left: 64px;
+    position: relative;
+}
+
+.block_company_text p:nth-child(2) {
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #111827;
+    margin-bottom: 0;
+}
+
+.block_company_text p:nth-child(3) {
+    font-weight: 400;
+    font-size: 14px;
+    color: #6b7280;
+    margin: 0px;
+    margin-left: 64px;
+    line-height: 20px;
+}
+
+.right_block>.block_company {
+    margin-left: 16px;
+}
+
+.right_block>.block_company>img {
+    width: 112px;
+    height: 32px;
+}

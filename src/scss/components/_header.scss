@@ -1,0 +1,138 @@
+#purple-circle {
+  position: absolute;
+  right: -100px;
+  top: -5px;
+  z-index: -1;
+  filter: blur(33px);
+  opacity: 0.4;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 72px;
+  justify-content: space-between;
+  padding-left: clamp(1.25rem, -0.775rem + 8.64vw, 7rem);
+  padding-right: clamp(1.25rem, -0.775rem + 8.64vw, 7rem);
+}
+
+.header_list_wrap>ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  column-gap: 40px;
+  display: flex;
+  display: none;
+  margin-left: 40px;
+}
+
+.header_list_wrap>ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  color: #111827;
+}
+
+.header_nav {
+  display: flex;
+  align-items: center;
+}
+
+.header_btn_apk {
+  display: none;
+  margin-right: 28px;
+}
+
+.btn_and_burger {
+  display: flex;
+  align-items: center;
+}
+
+.btn_google {
+  height: 40px;
+  width: 135px;
+  background-color: #000;
+  border-radius: 5px;
+  border: 1px solid rgba(166, 166, 166, 1);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  margin-right: 13px;
+  justify-content: flex-start;
+}
+
+.btn_google a {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 8px;
+}
+
+.btn_google>a>.btn_text {
+  margin-left: 8px;
+  padding: 0;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.btn_google>a>.top_text {
+  font-size: 7px;
+}
+
+.btn_google>a>.bottom_text {
+  font-size: 14px;
+}
+
+.btn_google img {
+  width: 23px;
+  height: 26px;
+  margin-left: 10px;
+}
+
+.btn_apple {
+  height: 40px;
+  width: 135px;
+  background-color: #000;
+  border-radius: 5px;
+  border: 1px solid rgba(166, 166, 166, 1);
+  padding: 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: flex-start;
+}
+
+.btn_apple a {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.btn_apple>a {
+  margin-left: 8px;
+  padding: 0;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.btn_apple>a>.top_text {
+  font-size: 8px;
+}
+
+.btn_apple>a>.bottom_text {
+  font-size: 15px;
+}
+
+.btn_apple img {
+  width: 18px;
+  height: 22px;
+  margin-left: 17px;
+}
