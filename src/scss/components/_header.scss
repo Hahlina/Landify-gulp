@@ -40,12 +40,15 @@
 
 .header_btn_apk {
   display: none;
-  margin-right: 28px;
+  // margin-right: 28px;
 }
 
 .btn_and_burger {
   display: flex;
   align-items: center;
+}
+.burger_icon{
+  margin-left: 24px;
 }
 
 .btn_google {

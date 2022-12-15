@@ -4,9 +4,12 @@
   .header_btn_apk {
     display: flex;
   }
+}
+@media screen and (min-width: 1164px) {
 
   .section_general {
-    align-items: flex-start;
+    justify-content: flex-start;
+
   }
 }
 
@@ -18,6 +21,7 @@
   .burger_icon {
     display: none;
   }
+ 
 }
 
 @media screen and (min-width: 900px) {
@@ -25,8 +29,13 @@
     width: 800px;
   }
 }
+@media screen and (min-width: 1330px) {
+  .tailor_item {
+    justify-content: space-between;
+  }
+}
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
   .left_block {
     width: 50%;
     display: flex;
@@ -96,6 +105,9 @@
 }
 
 @media screen and (min-width: 767px) {
+  .header{
+    height: 80px;
+  }
   .section_easy_integrations {
     flex-wrap: nowrap;
     justify-content: space-between;
