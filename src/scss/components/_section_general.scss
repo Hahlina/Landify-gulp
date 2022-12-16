@@ -53,6 +53,14 @@
     height: 56px;
     background: #7c3aed;
     border-radius: 8px;
+    border: #ffffff00;
+    transition: all 0.2s linear;
+}
+.btn_get:hover{
+opacity: 0.9;
+}
+.btn_get:active{
+ transform: scale(1.05);
 }
 
 .btn_get a {
@@ -60,7 +68,7 @@
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    
 }
 
 .btn_watch_video {
@@ -80,7 +88,30 @@
     justify-content: center;
     align-items: center;
     column-gap: 8px;
+    position: relative;
+    &::after {
+            position: absolute;
+            content: "";
+            top: 100%;
+            left: 22%;
+            width: 80%;
+            height: 3px;
+            background: #7c3aed;
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.5s;
+        }
+    
+        &:hover {
+            opacity: 0.8;
+        }
+    
+        &:hover::after {
+            transform: scaleX(1);
+            transform-origin: left;
+        }
 }
+
 
 .btn_watch_video>a>img {
     width: 24px;
