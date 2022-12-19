@@ -16,7 +16,7 @@
     margin: 0;
 }
 
-.nav_footer a {
+.footer_top_list  a, .footer_bottom_list a {
     color: #ffffff;
     text-decoration: none;
     font-weight: 400;
@@ -44,9 +44,7 @@
       transform-origin: left;
     }
 }
-.nav_footer > a:first-child{
-    position: static;
-}
+
 .nav_footer li {
     list-style: none;
 }
